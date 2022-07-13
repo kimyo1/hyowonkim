@@ -19,7 +19,8 @@ header {
 
 .main{
   margin: 0 auto;
-  padding: 100px 0px 200px 0px;
+  padding-top: 100px;
+  padding-bottom: 230px;
   position: relative;
   clear: both;
   display: table;
@@ -69,7 +70,7 @@ table {
 }
 
 footer{
-  background-color: lightseagreen;
+  background-color: darkslategray;
   text-align: center;
   font-family: monospace;
   width: 100%;
