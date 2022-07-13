@@ -18,10 +18,8 @@ header {
 }
 
 .main{
-  margin: 0 auto;
+  margin: 100 0 100 0;
   position: relative;
-  top: 200px;
-  bottom: 200px;
   clear: both;
   display: table;
   text-decoration: none;
