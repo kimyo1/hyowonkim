@@ -21,6 +21,7 @@ header {
   margin: 0 auto;
   position: relative;
   top: 100px;
+  bottom: 100px;
   clear: both;
   display: table;
   text-decoration: none;
