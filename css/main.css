@@ -1,0 +1,67 @@
+* {padding: 0; margin: 0;}
+a {text-decoration: none; font-family: "NanumSquareB", serif;}
+li {list-style: none;}
+img {vertical-align: middle;}
+html, body {background-image: linear-gradient(to bottom, #9dd6c8, #a3d0c5, #a3d0c5, #a7ccc3, #abc8c1, #aec5c0, #b0c3bf, #b2c1be, #b3c0bd, #b4bfbc, #b5bebc, #b6bdbc);}
+
+body::-webkit-scrollbar {display: none;}
+@font-face {font-family: "ITCKRIST"; src:url("../fonts/ITCKRIST.TTF");}
+@font-face {font-family: "NanumSquareB"; src:url("../fonts/NanumSquareB.TTF");}
+
+
+/*header*/
+header#intro {text-align: center; padding: 7em 5em 4em 5em;}
+header#intro > h1 {margin:0.25em 0 0.3em 0; font-size: 3em; font-family: "ITCKRIST", serif; letter-spacing: 0.08em}
+header#intro > p:nth-child(1) {font-size: 1.5em; font-family: "NanumSquareB", serif; padding-bottom: 2em;}
+header#intro > p {font-size: 1.25em; font-family: "NanumSquareB", serif;}
+header#intro > .logo > img {display: block; margin: 0 auto; width: 20%; border-radius: 100%; border: 0.1em dotted #7878ff; padding: 0.2em;}
+
+/*nav*/
+.nav {width: 90%; background-color: #ffffff; padding: 0.7em 0 ; text-align: center; margin: 0 auto; border-top-left-radius: 3em; border-top-right-radius: 3em;}
+.nav > ul > li {display: inline-block; margin: 0 3em; vertical-align: middle;}
+.nav > ul > li > a {display: inline-block; height: 2.25em; line-height: 2.25em; padding: 0 1.25em; font-size: 1.25em; font-family: "NanumSquareB", serif; }
+.nav > ul > li > a:hover {color: #ffffff; text-shadow: 0.1em 0.2em 0.2em #5928AA;}
+.nav > ul > li > a:active {color: #000000;}
+
+/*main*/
+/*main_about*/
+.main > #about {width: 90%; height: 850px; margin: 0 auto; background-color: #ffffff;}
+.main > #about > .content {padding: 5em 5em 3em 15em; border-top: 0.1em solid #d3d3d3}
+.main > #about > .content > .Subheadings > h2 {font-size: 2em; padding-bottom: 1.3em;}
+.main > #about > .content > .Subheadings > h2:after {display: block; content: ""; width: 3.4em; height: 0.13em; background-color: #ff6363; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
+.main > #about > .content > div {padding: 1.2em 0;}
+.main > #about > .content > div > h2 {color: #0fb80f;}
+.main > #about > .content > div > ul > li {list-style: square inside; padding: 0.2em 0;}
+.main > #about > .content > div > ul > li > a {color: #000000;}
+
+/*main_research*/
+.main > #research { width: 90%; height: auto; border-bottom-left-radius: 3em; border-bottom-right-radius: 3em; margin: 0 auto; background-color: #ffffff;}
+.main > #research > .content {padding: 5em 5em 3em 15em; border-top: 0.1em solid #d3d3d3}
+.main > #research > .content > .Subheadings > h2 {font-size: 2em; padding-bottom: 1.3em;}
+.main > #research > .content > .Subheadings > h2:after {display: block; content: ""; width: 5.1em; height: 0.13em; background-color: #ff6363; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
+.main > #research > .content > div {padding: 1.2em 0;}
+.main > #research > .content > div > h2 {color: #063c5f; padding-bottom: 0.7em;}
+.main > #research > .content > div > h2:nth-child(2) {color: #2cc7b5; font-size: 1.3em; padding-left: 0.8em;}
+.main > #research > .content > div > h2:nth-of-type(3) {color: #2cc7b5; font-size: 1.3em; padding: 1.3em 0 0.7em 0.8em;}
+.main > #research > .content > div > ul > li {list-style: square inside; padding: 0.2em 0 0.2em 0.8em;}
+.main > #research > .content > div > ul > li > a {color: #000000;}
+
+/*main_contact*/
+.main > #contact { width: 90%; height: auto;  margin: 0 auto; }
+.main > #contact > .content {padding: 5em 5em 3em 15em; }
+.main > #contact > .content > .Subheadings > h2 {font-size: 2em; padding-bottom: 1.3em; color: #ffffff;}
+.main > #contact > .content > .Subheadings > h2:after {display: block; content: ""; width: 5.1em; height: 0.13em; background-color: #ffffff; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
+.main > #contact > .content > div {padding: 1.2em 0;}
+.main > #contact > .content > div > h2 {color: #ffffff; padding-bottom: 0.7em; color: #ffffff;}
+.main > #contact > .content > div > h2:nth-child(2) {color: #ffffff; font-size: 1.3em; padding-left: 0.8em;}
+.main > #contact > .content > div > h2:nth-of-type(3) {color: #ffffff; font-size: 1.3em; padding: 1.3em 0 0.7em 0.8em;}
+.main > #contact > .content > div > ul > li {list-style: none inside; padding: 0.2em 0 0.2em 0.8em;}
+.main > #contact > .content > div > ul > li > a {color: #ffffff;}
+
+
+/*스크롤탑*/
+.main > .scroll {position: fixed; bottom: 30px; right: 100px; display: none; color: #004eff;}
+
+
+
+
