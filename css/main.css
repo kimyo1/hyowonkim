@@ -19,7 +19,7 @@ header#intro > .logo > img {display: block; margin: 0 auto; width: 20%; border-r
 /*nav*/
 .nav {width: 90%; background-color: #ffffff; padding: 0.7em 0 ; text-align: center; margin: 0 auto; border-top-left-radius: 3em; border-top-right-radius: 3em;}
 .nav > ul > li {display: inline-block; margin: 0 3em; vertical-align: middle;}
-.nav > ul > li > a {display: inline-block; height: 2.25em; line-height: 2.25em; padding: 0 1.25em; font-size: 1.25em; font-family: "NanumSquareB", serif; }
+.nav > ul > li > a {display: inline-block; height: 2.25em; line-height: 2.25em; padding: 0 1.25em; font-size: 1.25em; font-family: "NanumSquareB", serif; color: #000000; }
 .nav > ul > li > a:hover {color: #ffffff; text-shadow: 0.1em 0.2em 0.2em #5928AA;}
 .nav > ul > li > a:active {color: #000000;}
 
