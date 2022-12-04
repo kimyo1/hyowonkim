@@ -41,8 +41,8 @@ header#intro > .logo > img {display: block; margin: 0 auto; width: 20%; border-r
 .main > #research > .content > .Subheadings > h2:after {display: block; content: ""; width: 3.4em; height: 0.13em; background-color: #ff6363; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
 .main > #research > .content > div {padding: 1.1em 0;}
 .main > #research > .content > div > h2 {color: #063c5f;}
-.main > #research > .content > div > h2:nth-child(2) {color: #65f7e6; font-size: 1.3em; padding-left: 0.8em;}
-.main > #research > .content > div > h2:nth-of-type(3) {color: #65f7e6; font-size: 1.3em; padding: 1.3em 0 0.7em 0.8em;}
+.main > #research > .content > div > h2:nth-child(2) {color: 	#008b8b; font-size: 1.3em; padding-left: 0.8em;}
+.main > #research > .content > div > h2:nth-of-type(3) {color: 	#008b8b; font-size: 1.3em; padding: 1.3em 0 0.7em 0.8em;}
 .main > #research > .content > div > ul > li {list-style: square inside; padding: 0.2em 0;}
 .main > #research > .content > div > ul > li > a {color: #000000;}
 
