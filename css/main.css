@@ -35,15 +35,13 @@ header#intro > .logo > img {display: block; margin: 0 auto; width: 20%; border-r
 .main > #about > .content > div > ul > li > a {color: #000000;}
 
 /*main_research*/
-.main > #research { width: 90%; height: auto; border-bottom-left-radius: 3em; border-bottom-right-radius: 3em; margin: 0 auto; background-color: #ffffff;}
+.main > #research {width: 90%; height: 850px; margin: 0 auto; background-color: #ffffff;}
 .main > #research > .content {padding: 5em 5em 3em 15em; border-top: 0.1em solid #d3d3d3}
 .main > #research > .content > .Subheadings > h2 {font-size: 2em; padding-bottom: 1.3em;}
-.main > #research > .content > .Subheadings > h2:after {display: block; content: ""; width: 5.1em; height: 0.13em; background-color: #ff6363; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
+.main > #research > .content > .Subheadings > h2:after {display: block; content: ""; width: 3.4em; height: 0.13em; background-color: #ff6363; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
 .main > #research > .content > div {padding: 1.1em 0;}
-.main > #research > .content > div > h2 {color: #063c5f; padding-bottom: 0.7em;}
-.main > #research > .content > div > h2:nth-child(2) {color: #2cc7b5; font-size: 1.3em; padding-left: 0.8em;}
-.main > #research > .content > div > h2:nth-of-type(3) {color: #2cc7b5; font-size: 1.3em; padding: 1.3em 0 0.7em 0.8em;}
-.main > #research > .content > div > ul > li {list-style: square inside; padding: 0.2em 0 0.2em 0.8em;}
+.main > #research > .content > div > h2 {color: #0fb80f;}
+.main > #research > .content > div > ul > li {list-style: square inside; padding: 0.2em 0;}
 .main > #research > .content > div > ul > li > a {color: #000000;}
 
 /*main_experiences*/
