@@ -49,14 +49,14 @@ header#intro > .logo > img {display: block; margin: 0 auto; width: 20%; border-r
 /*main_contact*/
 .main > #contact { width: 90%; height: auto;  margin: 0 auto; }
 .main > #contact > .content {padding: 5em 5em 3em 15em; }
-.main > #contact > .content > .Subheadings > h2 {font-size: 2em; padding-bottom: 1.3em; color: #ffffff;}
+.main > #contact > .content > .Subheadings > h2 {font-size: 2em; padding-bottom: 1.3em; color: #000000;}
 .main > #contact > .content > .Subheadings > h2:after {display: block; content: ""; width: 5.1em; height: 0.13em; background-color: #ffffff; margin: 0.2em 0 0.1em 0; border-radius: 2px;}
 .main > #contact > .content > div {padding: 1.1em 0;}
 .main > #contact > .content > div > h2 {color: #ffffff; padding-bottom: 0.7em; color: #ffffff;}
 .main > #contact > .content > div > h2:nth-child(2) {color: #ffffff; font-size: 1.3em; padding-left: 0.8em;}
 .main > #contact > .content > div > h2:nth-of-type(3) {color: #ffffff; font-size: 1.3em; padding: 1.3em 0 0.7em 0.8em;}
 .main > #contact > .content > div > ul > li {list-style: none inside; padding: 0.2em 0 0.2em 0.8em;}
-.main > #contact > .content > div > ul > li > a {color: #ffffff;}
+.main > #contact > .content > div > ul > li > a {color: #000000;}
 
 
 /*스크롤탑*/
