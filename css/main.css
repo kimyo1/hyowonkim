@@ -222,7 +222,11 @@ h2 {
     font-weight: 500;
   }
   .nav-title img {
-    display: none;
+  position: relative;
+  display: flex;
+  border-radius: 50%;
+  width: 100vw;
+  height: 10vh;
   }
   .nav-icon {
     display: block;
