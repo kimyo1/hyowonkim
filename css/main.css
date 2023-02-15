@@ -225,8 +225,8 @@ h2 {
   position: relative;
   display: flex;
   border-radius: 50%;
-  width: 100vw;
-  height: 10vh;
+  width: 50vw;
+  height: 50vh;
   }
   .nav-icon {
     display: block;
