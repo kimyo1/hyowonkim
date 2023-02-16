@@ -214,19 +214,23 @@ h2 {
     height: 10vh;
     background: #9dd6c8;
   }
+  .nav-title {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
   .nav-name {
     display: block;
-    padding-left: 2rem;
+    padding-left: 1rem;
     font-family: "Jua", sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
   }
   .nav-title img {
-  position: relative;
-  display: flex;
-  border-radius: 50%;
-  width: 20vw;
-  height: 15vh;
+    display: block;
+    width: 70px;
+    border: 0;
+    margin-left: 2rem;
   }
   .nav-icon {
     display: block;
@@ -305,6 +309,9 @@ h2 {
   }
 }
 @media screen and (max-width: 570px) {
+  .content-wrap {
+    padding-top: 6vh;
+  }
   .nav {
     position: relative;
     display: flex;
@@ -315,7 +322,13 @@ h2 {
     height: 14.5vh;
     background: #9dd6c8;
   }
+  .nav-title img {
+    display: block;
+    width: 60px;
+    border: 0;
+    margin-left: 2rem;
+  }
   .gnb {
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
   }
 }
